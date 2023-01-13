@@ -5,7 +5,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
+  transition: all 0.15s;
+  border-radius: 1rem;
+
+  &:hover {
+    background-color: $light-gray;
+    cursor: pointer;
+  }
 
   .contact {
     display: flex;
