@@ -9,7 +9,7 @@ const ContactList = () => {
         <div className={classes['top-functions']}>
           <div className={classes.head}>
             <h1>Chats</h1>
-            <button>New Chat</button>
+            <button className={`btn btn--dark`}>New Chat</button>
           </div>
           <input type="text" placeholder="Search" className={`input`} />
         </div>

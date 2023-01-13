@@ -18,7 +18,7 @@ const ChatInput = () => {
       <div className={classes.container}>
         <form onSubmit={handleSubmit}>
           <input type="text" value={message} onChange={handleChange} placeholder="Aa" className={`input`} />
-          <button type="submit">Send</button>
+          <button type="submit" className={`btn btn--dark`}>Send</button>
         </form>
       </div>
     </section>

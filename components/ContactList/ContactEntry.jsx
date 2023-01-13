@@ -22,7 +22,7 @@ const ContactEntry = () => {
             fill="currentColor"
           />
         </svg>
-        <span className={classes.username}>myUserName</span>
+        <span className={classes.username}>contactUsername</span>
       </div>
       <span className={`${classes["status"]} ${classes["new-chat"]}`}></span>
       {/* you can put a blue colored circle for new chats */}

@@ -1,6 +1,10 @@
+@import "../../styles/variables";
+
 .chat-main-header {
   padding: 1rem;
   z-index: 99;
+  border-bottom: 1px solid $light-gray;
+
   .container {
     .contact {
       display: flex;

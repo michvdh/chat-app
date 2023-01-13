@@ -48,3 +48,16 @@ main {
   padding: 0.5rem 2rem;
   background-color: $light-gray;
 }
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: $font--xs;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+
+  &--dark {
+    background-color: $teal;
+    color: $white;
+  }
+}

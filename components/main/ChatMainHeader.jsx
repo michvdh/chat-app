@@ -2,7 +2,7 @@ import classes from "./ChatMainHeader.module.scss";
 
 const ChatMainHeader = () => {
   return (
-    <section className={`${classes['chat-main-header']} shadow`}>
+    <section className={`${classes['chat-main-header']}`}>
       {/* if there is a selected contact, display name of contact */}
       {/* if there is no selected contact, display the latest chat */}
       {/* if new chat is selected, change to search field */}
@@ -27,7 +27,7 @@ const ChatMainHeader = () => {
               fill="currentColor"
             />
           </svg>
-          <span className={classes.username}>myUserName</span>
+          <span className={classes.username}>contactUsername</span>
         </div>
       </div>
     </section>
